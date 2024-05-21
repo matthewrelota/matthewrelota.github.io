@@ -4,3 +4,8 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+window.addEventListener('load', () => {
+  const preload = document.querySelector('.preload');
+  preload.classList.add('preload-finish');
+});
